@@ -1,0 +1,5 @@
+n=int(input())
+candles= input().strip().split()
+k=max(candles)
+x=candles.count(k)
+print(x)
